@@ -1,3 +1,23 @@
-header h1 {
-  color: green;
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1em;
+  border-bottom: 2px solid black;
+}
+
+.header-logo {
+    height: 64px;
+    width: 64px;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header-info li {
+  list-style: none;
+  line-height: 1.25rem;
 }
