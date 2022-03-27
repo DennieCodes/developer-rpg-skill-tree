@@ -8,28 +8,35 @@ import Header from "./components/Header";
 
 // Styled Components
 const AppContainer = styled.div`
+  width: 100%;
 `;
 
 const Main = styled.main`
+  width: 100%;
 `;
 
 // Appliction Component
 function App() {
+  // localStorage.setItem("Class", "Front-end Developer");
+
+  // const className = localStorage.getItem("Class");
+  
   return (
-    <>
+    <div>
     <BrowserRouter>
       <GlobalStyles/>
       <AppContainer>
-        <Header />
-
+        
+        <h1>Outside Main</h1>
         <Main>
+          <h1>Main</h1>
           <Routes>
             {/* <Route exact path="/local" element={<Test />}/> */}
           </Routes>
         </Main>
       </AppContainer>
     </BrowserRouter>
-    </>
+    </div>
   );
 }
 

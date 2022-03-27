@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "scss": "node-sass --watch styles/index.scss styles/index.css --no-source-map"
   },
   "dependencies": {
     "@types/react": "^17.0.13",
@@ -17,9 +18,5 @@
     "styled-components": "^5.3.3",
     "vite": "^2.3.8"
   },
-  "devDependencies": {
-    "eslint": "^8.11.0",
-    "eslint-config-prettier": "^8.5.0",
-    "prettier": "2.6.0"
-  }
+  "devDependencies": {}
 }
