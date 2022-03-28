@@ -10,3 +10,9 @@ ul {
 li {
   list-style-type: none;
 }
+
+.selected {
+  -webkit-box-shadow:0px 0px 15px 5px rgba(232,242,92,0.76);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(232,242,92,0.76);
+  box-shadow: 0px 0px 15px 5px rgba(232,242,92,0.76);
+}

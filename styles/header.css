@@ -4,20 +4,26 @@ header {
   align-items: flex-start;
   padding: 1em;
   border-bottom: 2px solid black;
+  background-color: #43464B;
 }
 
 .header-logo {
-    height: 64px;
-    width: 64px;
+  height: 64px;
+  width: 64px;
+  border: 5px solid black;
+  background-color: #c4c4c4;
+  
 }
 
 .header-info {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: .5em 1em;
+  color: white;
+  font-size: 18px;
 }
 
 .header-info li {
   list-style: none;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
 }
